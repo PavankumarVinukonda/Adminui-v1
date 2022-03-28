@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+.bg-container {
+    
+    background-size: cover;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.emp-data-container{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width:80vw;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+
+.item-container {
+    display: flex;
+    align-items:center;
+    list-style: none;
+   
+}
+
+.check-box {
+    height:20px;
+    width:20px;
+}
+
+.box-1 {
+    width:300px;
+    margin-top:10px;
+}
+
+.box-2 {
+    width:250px;
+}
+
+.name {
+    font-family: roboto;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.horizantal-line {
+    width: 100%;
+    
+}
+
+.edit-container {
+    align-self: center;
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+
+.pagination-container {
+    align-self: center;
+    width: 60vw;
+}
+
+.pagination-container-box {
+    display: flex;
+    align-items: center;
+    width: 90vw;
+    justify-content:space-around;
+}
+
+.btn-delete-selected{
+    padding:5px;
+    border-radius: 5px;
+    background-color:red;
+    color:white;
+    font-family: roboto;
+    font-size:16px;
+    font-weight: solid;
+    border: 0px;
+    
+}
+
+.search-bar {
+    width:80vw;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color:transparent;
+    margin-bottom:10px;
+
+}
+
+.loader-container {
+    min-height: 80vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}

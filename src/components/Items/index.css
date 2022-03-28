@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+.item-container {
+    display: flex;
+    align-items:center;
+    list-style: none;
+    justify-content:space-around;
+   
+}
+
+.item-container:hover {
+    background-color: lightgreen;
+}
+
+.check-box {
+    height:20px;
+    width:20px;
+}
+
+.box-1 {
+    width:300px;
+    margin-left:10px;
+}
+
+.box-2 {
+    width:250px;
+}
+
+.name {
+    font-family: roboto;
+    font-size: 20px;
+    font-weight:solid;
+}
+
+.icons-box {
+    width:180px;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    height:20px;
+    width:20px;
+    margin-right:10px;
+}
+
+.icon:hover {
+    color:lightcoral;
+}
+
+.horizantal-line {
+    width: 100%;
+    
+}
+
+.input-box {
+    width: 100px;
+    height: 20px;
+    border: solid;
+    border-radius: 5px;
+}
+
+.save-button {
+    padding:5px;
+    background-color: skyblue;
+    color:white;
+    border-radius: 5px;
+    border: 0px;
+}
